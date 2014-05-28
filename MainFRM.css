@@ -1,0 +1,50 @@
+.root {
+     -fx-background-color: silver;
+}
+#welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+/*
+#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+} */
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+     /* -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+.table {
+    -fx-border-insets: 1 2 1 2;
+    -fx-background-color: silver;
+    -fx-border-color: white;
+}
+
+.bordered-titled-title {
+  -fx-background-color: silver;
+  -fx-border-color: silver;
+  -fx-translate-y: -10; /* play around with this value when changing the title font to get a vertically centered title */
+  -fx-translate-x: 10;
+}
+
+.bordered-titled-border {
+  -fx-content-display: top;
+  -fx-border-insets: 10 1 10 1;
+  -fx-background-color: silver;
+  -fx-border-color: white;
+  -fx-border-width: 1;
+}
+
+.bordered-titled-content {
+  -fx-padding: 26 10 10 10;
+}
+
