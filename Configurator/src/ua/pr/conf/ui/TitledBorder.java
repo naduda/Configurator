@@ -36,8 +36,8 @@ public class TitledBorder extends StackPane {
     public TitledBorder() {
         titleLabel.setText("default title");
         titleLabel.getStyleClass().add("bordered-titled-title");
+        
         StackPane.setAlignment(titleLabel, Pos.TOP_LEFT);
-
         getStyleClass().add("bordered-titled-border");
         getChildren().addAll(titleLabel, contentPane);
     }
