@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import ua.pr.conf.ui.nspinner.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" >
+	<children>
+		<NumberSpinner minValue="104" value="106" maxValue="110" hAlignment="CENTER" step="2" format="0.000 %"/>
+    	<!--TextField fx:id="text" prefWidth="200.0" />
+    	
+	    <VBox spacing="0">
+	    	<children>
+	    		<Button fx:id="up" text="u" />
+	    		<Button fx:id="down" text="d" />
+	    	</children>
+	    </VBox-->
+  	</children>
+</HBox>

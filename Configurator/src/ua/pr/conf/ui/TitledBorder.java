@@ -16,22 +16,17 @@ public class TitledBorder extends StackPane {
         contentPane.getChildren().add(content);
     }
 
-
     public Node getContent() {
         return content;
     }
-
 
     public void setTitle(String title) {
     	titleLabel.setText(" " + title + " ");
     }
 
-
     public String getTitle() {
         return titleLabel.getText();
     }
-
-
 
     public TitledBorder() {
         titleLabel.setText("default title");

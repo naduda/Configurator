@@ -17,7 +17,7 @@ public class Test_FXML extends Application {
 	
 	@Override
 	public void start(Stage stage) throws Exception {
-		Parent root = FXMLLoader.load(new URL("file:/" + ToolsPrLib.getFullPath("./src/ua/pr/conf/ui/spinner/Spinner.xml")));
+		Parent root = FXMLLoader.load(new URL("file:/" + ToolsPrLib.getFullPath("../Spinner.xml")));
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
