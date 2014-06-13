@@ -100,8 +100,8 @@ public class NumberSpinnerSkin extends StackPane implements Skin<NumberSpinner> 
 //                        setStyle("-fx-background-color: null;\n" +
 //                                "    -fx-background-insets: null;\n" +
 //                                "    -fx-background-radius: null");
-                        setStyle("-fx-background-color: , -fx-text-box-border, -fx-control-inner-background;\n" +
-                                "    -fx-background-insets: -0.4, 0, 2;\n" +
+                        setStyle("-fx-background-color: null;\n" +
+                                "    -fx-background-insets: null;\n" +
                                 "    -fx-background-radius: 3.4, 2, 2");
                     }
                     parseText();

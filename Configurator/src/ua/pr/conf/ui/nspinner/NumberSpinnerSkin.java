@@ -98,7 +98,7 @@ public class NumberSpinnerSkin extends StackPane implements Skin<NumberSpinner> 
                     getStyleClass().remove("number-spinner-focused");
                     if (javafxVersion.startsWith("2.2")) {
                         setStyle("-fx-background-color: null;\n" +
-                                "    -fx-background-insets: -0.4, 0, 2;\n" +
+                                "    -fx-background-insets: null;\n" +
                                 "    -fx-background-radius: null");
                     }
                     parseText();
@@ -327,7 +327,6 @@ public class NumberSpinnerSkin extends StackPane implements Skin<NumberSpinner> 
         arrowDecrement.setRotate(0);
 
         buttonBox.getChildren().addAll(btnIncrement, btnDecrement);
-        System.out.println(buttonBox.getWidth());
         getChildren().add(hBox);
     }
  

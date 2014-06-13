@@ -2,6 +2,8 @@
 	-fx-skin: "ua.pr.conf.ui.nspinner.NumberSpinnerSkin";
     -fx-padding: 0 0 0 0;
     -fx-cursor: default; /* Override the cursor since the "text" cursor is inherited from text field. But we want the default cursor over the buttons. */
+    -fx-border-color: #4F4F4F;
+    -fx-border-width: 5;
 }
 
 /* A left directed arrow */

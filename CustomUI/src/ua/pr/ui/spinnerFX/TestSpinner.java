@@ -1,7 +1,6 @@
 package ua.pr.ui.spinnerFX;
 
 import javafx.application.Application;
-import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
