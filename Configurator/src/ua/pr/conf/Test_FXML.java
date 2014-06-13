@@ -19,6 +19,8 @@ public class Test_FXML extends Application {
 	public void start(Stage stage) throws Exception {
 		Parent root = FXMLLoader.load(new URL("file:/" + ToolsPrLib.getFullPath("../Spinner.xml")));
 		Scene scene = new Scene(root);
+		scene.getStylesheets().add(getClass().getResource("NumberSpinner.css").toExternalForm());
+		System.out.println(getClass().getResource("NumberSpinner.css").toExternalForm()); 
 		stage.setScene(scene);
 		stage.show();
 	}

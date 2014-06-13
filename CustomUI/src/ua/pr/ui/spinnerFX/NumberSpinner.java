@@ -1,4 +1,4 @@
-package ua.pr.conf.ui.nspinner;
+package ua.pr.ui.spinnerFX;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;

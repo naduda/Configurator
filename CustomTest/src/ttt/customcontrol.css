@@ -1,0 +1,4 @@
+.custom-control {
+   -fx-skin: "ttt.MyCustomControlSkin";
+   -fx-background-color: #000000;
+}

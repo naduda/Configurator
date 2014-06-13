@@ -1,5 +1,4 @@
 .number-spinner {
-	-fx-skin: "ua.pr.conf.ui.nspinner.NumberSpinnerSkin";
     -fx-padding: 0 0 0 0;
     -fx-cursor: default; /* Override the cursor since the "text" cursor is inherited from text field. But we want the default cursor over the buttons. */
 }
@@ -8,8 +7,9 @@
 .number-spinner .arrow {
     -fx-padding: 3 3.5 3 3.5;
     -fx-shape: "M 100 100 L 300 100 L 200 300 z";
-    -fx-background-color: #4F4F4F;
+    -fx-background-color: #000000;
 }
+
 
 /* Make one-side rounded buttons */
 .number-spinner .button.top-right {

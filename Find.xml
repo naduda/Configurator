@@ -10,13 +10,12 @@
 <?import javafx.collections.*?> 
 
 <?import ua.pr.conf.ui.*?>
-<?import ua.pr.conf.ui.spinner.*?>
+<?import ua.pr.conf.ui.nspinner.*?>
 
 <BorderPane prefHeight="200" xmlns:fx="http://javafx.com/fxml" fx:controller="ua.pr.conf.controller.FindController" styleClass="root">
 	<center>
 		<TitledBorder title="Параметри">       
 		    <GridPane alignment="center" hgap="10" vgap="10">
-				
 
 				<Label text="Тип пристроїв" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
 				<Label text="СОМ-порт" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
@@ -25,13 +24,21 @@
 
 				<ComboBox fx:id="cbTypeDevice" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
 				<ComboBox fx:id="cbCOMPort" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-				<Spinner fx:id="cbCOMPort1" width_="50" height_="20" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+				<NumberSpinner fx:id="sTimeOut" minValue="100" value="100" maxValue="1000"
+					stepWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="2" prefWidth="100"/>
 				<ComboBox fx:id="cbCOMPort2" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
 
 				<Label text="Початкова адреса" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
 				<Label text="Кінцева адреса" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
 				<Label text="Початкова швидкість" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
 				<Label text="Кінцева швидкість" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+
+				<NumberSpinner fx:id="sStartAddress" minValue="1" value="1" maxValue="99"
+					GridPane.columnIndex="3" GridPane.rowIndex="0" prefWidth="100"/>
+				<NumberSpinner fx:id="sEndAddress" minValue="1" value="1" maxValue="99"
+					GridPane.columnIndex="3" GridPane.rowIndex="1" prefWidth="100"/>
+				<ComboBox fx:id="cbStartSpeed" prefWidth="100" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+				<ComboBox fx:id="cbEndSpeed" prefWidth="100" GridPane.columnIndex="3" GridPane.rowIndex="3"/>
 			</GridPane> 
 
 		      
@@ -40,8 +47,8 @@
 
 	<bottom>
 		<HBox spacing="10" alignment="center" style="-fx-padding: 0 0 6 0">
-			<Button text="OK" prefWidth="75" />
-			<Button text="Cancel" prefWidth="75" onAction="#cancelButtonAction"/>
+			<Button text="OK" prefWidth="75" styleClass="buttonM"/>
+			<Button text="Cancel" prefWidth="75" onAction="#cancelButtonAction" styleClass="buttonM"/>
 		</HBox>
 	</bottom>
 

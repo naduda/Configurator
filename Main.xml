@@ -12,13 +12,13 @@
 <BorderPane prefHeight="200" xmlns:fx="http://javafx.com/fxml" fx:controller="ua.pr.conf.controller.MainController" styleClass="root">
 	<top>
 	   <ToolBar>
-	   		<Button text="Search" prefWidth="75" onAction="#handleSubmitButtonAction" />
-	   		<Button text="Settings" prefWidth="75" onAction="#handleSubmitButtonAction" />
-	   		<Button text="Monitor" prefWidth="75" onAction="#handleSubmitButtonAction" />
-	   		<ComboBox fx:id="cbTypeDevice" prefWidth="100"/>
-	   		<Button text="Read" prefWidth="75" onAction="#handleSubmitButtonAction" />
-	   		<Button text="Write" prefWidth="75" onAction="#handleSubmitButtonAction" />
-	   		<Button text="Exit" prefWidth="75" onAction="#exitButtonAction" />
+	   		<Button text="Search" prefWidth="75" onAction="#handleSubmitButtonAction" styleClass="buttonM"/>
+	   		<Button text="Settings" prefWidth="75" onAction="#handleSubmitButtonAction" styleClass="buttonM"/>
+	   		<Button text="Monitor" prefWidth="75" onAction="#handleSubmitButtonAction" styleClass="buttonM"/>
+	   		<ComboBox fx:id="cbTypeDevice" prefWidth="100" styleClass="comboBoxM"/>
+	   		<Button text="Read" prefWidth="75" onAction="#handleSubmitButtonAction" styleClass="buttonM"/>
+	   		<Button text="Write" prefWidth="75" onAction="#handleSubmitButtonAction" styleClass="buttonM"/>
+	   		<Button text="Exit" prefWidth="75" onAction="#exitButtonAction" styleClass="buttonM"/>
 	   </ToolBar>
 	</top>
 	
