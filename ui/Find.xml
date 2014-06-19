@@ -26,7 +26,7 @@
 				<ComboBox fx:id="cbCOMPort" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
 				<NumberSpinner fx:id="sTimeOut" minValue="100" value="100" maxValue="1000"
 					stepWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="2" prefWidth="100"/>
-				<ComboBox fx:id="cbCOMPort2" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+				<CheckBox fx:id="cbFindOne" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
 
 				<Label text="Початкова адреса" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
 				<Label text="Кінцева адреса" GridPane.columnIndex="2" GridPane.rowIndex="1"/>

@@ -14,7 +14,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		stage = new MainStage("../Main.xml");
+		stage = new MainStage("../ui/Main.xml");
 		mainStage = stage;
         stage.show();
 	}
